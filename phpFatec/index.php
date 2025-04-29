@@ -76,7 +76,7 @@
     </style>
   </head>
   <body>
-    <form action="/seu-endpoint" method="POST">
+    <form action="back/insert_dados.php" method="POST">
       <fieldset>
         <legend>Informações Pessoais</legend>
 
@@ -122,7 +122,7 @@
 
         <section>
           <label for="tipo_inscricao">Tipo de Inscrição:</label>
-          <select id="tipo_inscricao" name="tipo_inscricao" required>
+          <select id="tipo_inscricao" name="tipo_evento_inscricao" required>
             <option value="">Selecione</option>
             <option value="palestrante">Palestrante</option>
             <option value="participante">Participante</option>
@@ -134,7 +134,7 @@
           <label for="mensagem">Mensagem:</label>
           <textarea
             id="mensagem"
-            name="mensagem"
+            name="descricao_evento"
             rows="4"
             maxlength="200"
             required
