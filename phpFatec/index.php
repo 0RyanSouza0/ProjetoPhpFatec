@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário de Inscrição</title>
     <style>
+      *{
+        padding: 0px;
+        margin:0px;
+        box-sizing:border-box;      }
       body {
+
         font-family: Arial, sans-serif;
         background-color: #f9f9f9;
         padding: 2rem;
+        background-image: url("img/fundo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        backdrop-filter: blur(10px);
       }
 
       form {
         max-width: 600px;
         margin: auto;
-        background: white;
+        background: rgba(174, 113, 113, 0.461);
         padding: 2rem;
+        color: white;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       }
@@ -30,7 +41,7 @@
         font-size: 1.2rem;
         font-weight: bold;
         margin-bottom: 1rem;
-        color: #333;
+        color:white;
       }
 
       label {
